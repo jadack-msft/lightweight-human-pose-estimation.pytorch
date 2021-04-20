@@ -1,5 +1,8 @@
-torch>=0.4.1
-torchvision>=0.2.1
-pycocotools==2.0.0
-opencv-python>=3.4.0.14
-numpy>=1.14.0
+--find-links https://download.pytorch.org/whl/torch_stable.html
+
+torch===1.7.1+cu110
+torchvision===0.8.2+cu110
+pycocotools
+opencv-python
+numpy
+wget
